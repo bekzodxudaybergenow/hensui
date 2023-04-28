@@ -1,0 +1,63 @@
+:root {
+    --first-family: 'Urbanist', sans-serif;
+    --secont-family: 'Work Sans', sans-serif;
+
+    --font-size: 18px;
+
+    // colors
+    --WHITE: #FFFFFF;
+    --BLACK: #000000;
+    --DEEP-VIOLET: #29005F;
+    --LIGHT-GRAY: #D4D4D4;
+    --LAVENDER-INDIGO: #9747FF;
+}
+
+
+// Urbanist
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Bold.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Medium.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-Regular.woff2') format('woff2'),
+        url('../fonts/Urbanist/Urbanist-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// Work Sans
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans/WorkSans-Medium.woff2') format('woff2'),
+        url('../fonts/WorkSans/WorkSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans/WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/WorkSans/WorkSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
